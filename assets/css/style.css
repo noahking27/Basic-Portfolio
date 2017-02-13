@@ -1,0 +1,84 @@
+/* Portfolio, index, and contact html styling */
+h1 {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 25%;
+	text-align: center;
+	border-color: #cccccc;
+}
+
+h3 {
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 25%;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+	
+	background-image: url("../images/dark_embroidery.png");
+}
+
+p {
+	text-align: center;
+	margin-left: 20%;
+	width: 33%;
+	color:#777777;
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+	background-color: #666666;
+	clear: both;
+	height: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 35px;
+	border-top-style: solid;
+	border-top-width: thick;
+	border-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+#main {
+	background-color: white;
+	width: 50%;
+	height: 30%;
+	margin-left: 10%;
+	margin-bottom: 10%
+	float: left;
+}
+
+#git, #linkedin, #stack {
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+
+#Noah {
+	color: white;
+	text-align: center;
+	width: 20%;
+	margin-left: 10%; 
+}
+
+#about {
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	border-color: #cccccc;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px;
+}
+
+
+
+
+
