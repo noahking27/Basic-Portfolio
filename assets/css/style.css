@@ -149,9 +149,26 @@ li{
 
 #header {
 	margin-left:20em;
-	border: 10px solid red;
 	width:575px;
 }
 
 #CWEimg {
+}
+
+#asideContact {
+	background-color: white;
+	float: right;
+	padding: 20px;
+	position: relative;
+	right: -11em;
+	width: 270px;
+
+}
+
+#contactForm {
+	border: 10px solid red;
+	height: 20em;
+	width: 40em;
+	background-color: white;
+
 }
