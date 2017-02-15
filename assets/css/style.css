@@ -8,7 +8,7 @@ h1 {
 }
 
 body {
-	
+	width: 960px;
 	background-image: url("../images/dark_embroidery.png");
 }
 
@@ -19,6 +19,18 @@ p {
 	color:#777777;
 	font-size: 16px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 25px;
+	/* display: inline-block; */
+}
+
+li > img {	
+	width:50px;
+	height:50px;
+	
 }
 
 footer {
@@ -39,8 +51,7 @@ footer {
 
 main {
 	background-color: white;
-	/* COMMENTED OUT UNTIL COMPLETE remove width below width: 650px;*/
-	width: 50%;
+	width: 650px;
 	height: 30%;
 	margin-top: 5%;
 	margin-left: 10%;
@@ -48,25 +59,39 @@ main {
 	float: left;
 }
 
-#connect {
+/*aside {
+	width: 270px;
+}*/
+
+aside {
 	background-color: white;
-	position: absolute;
-	top: 155px;
-	right: -70px;
 	float: right;
-	padding: 100px;
+	padding: 20px;
+	margin-top: -88.5%;
+	position: relative;
+	right: -5em;
 }
+
+li{
+	display: inline-block;
+
+}
+
 
 #connectWithMe {
 	height: 55%;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	border-color: #cccccc;
+	text-align: center;
 }
 
 #git, #linkedin, #stack {
 	width: 50px;
 	height: 50px;
-	float: right;
+
 }
 
 
@@ -98,9 +123,12 @@ main {
 	z-index: -1;
 	margin-top: 0;
 	padding: 25px;
-	text-decoration: none;
 
 }
 
+#a, #p, #c {
+	text-decoration: none;
+	color: #777777;
 
+}
 
