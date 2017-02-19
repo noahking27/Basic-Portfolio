@@ -96,15 +96,18 @@ li{
 #git, #linkedin, #stack {
 	width: 50px;
 	height: 50px;
-
+	
 }
 
 
 #Noah {
 	color: white;
-	text-align: center;
-	width: 20%;
-	margin-left: 10%; 
+    text-align: center;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 1em;
+    height: 2em;
+    padding: 2px; 
 }
 
 #about {
@@ -122,7 +125,7 @@ li{
 	float: right;
 	position: absolute;
 	top: 0px;
-	width: 200%;
+	width: 150%;
 	height: 50px;
 	text-align: right;
 	z-index: -1;
@@ -204,5 +207,74 @@ li{
 	border: transparent;
 }
 
+#portImg {
+	height: 12em;
+	width: 12em;
+	padding:1em;
+}
 
+#portUl {
+	width: 500px;
+}
+
+#hangman {
+	position: absolute;
+	top: 400px;
+	left: 160px;
+	width: 192px;
+	background-color: #4aaaa5;
+	color:white;
+	text-align: center;
+
+}
+
+#rpg {
+	position: absolute;
+	top: 400px;
+	left: 388px;
+	width: 192px;
+	background-color: #4aaaa5;
+	color:white;
+	text-align: center;
+}
+
+#trivia {
+	position: absolute;
+	top: 630px;
+	left: 160px;
+	width: 192px;
+	background-color: #4aaaa5;
+	color:white;
+	text-align: center;
+}
+
+#rutgers {
+	position: absolute;
+	top: 600px;
+	left: 388px;
+	width: 192px;
+	background-color: #4aaaa5;
+	color:white;
+	text-align: center;
+}
+
+#rps {
+	position: absolute;
+	top: 830px;
+	left: 160px;
+	width: 192px;
+	background-color: #4aaaa5;
+	color:white;
+	text-align: center;
+}
+
+#portAside {
+	background-color: white;
+	float: right;
+	padding: 20px;
+	margin-top: -96.5%;
+	position: relative;
+	right: -11em;
+	width: 270px;
+}
 
